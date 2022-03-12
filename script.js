@@ -8,10 +8,6 @@ var filmes = [
   "https://a-static.mlcdn.com.br/1500x1500/lego-batman-o-filme-dvd-warner/whiteshark/v27125/033f7735664279a6f39c69b6d080cfc1.jpg"
 ];
 
-// function inserir() {
- // var adicionar = filmes.push(document.getElementById("url").value);
-}
-
 //   valor incial      condição     expressão final
 for (var indíce = 0; indíce < filmes.length; indíce++) {
   document.write("<img src=" + filmes[indíce] + ">");
